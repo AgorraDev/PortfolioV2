@@ -17,7 +17,7 @@ const About = () => {
                         clean & easy to read designs.
                     </p>
                 </div>
-                <div className="">
+                <div>
                     <div className='flex flex-wrap px-10'>
                         <Languages />
                     </div>
