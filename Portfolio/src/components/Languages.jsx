@@ -17,7 +17,7 @@ const Languages = () => {
 
     return (
         <>
-        <div className='flex flex-wrap lg:p-10 h-auto'>
+        <div className='flex flex-wrap lg:p-10 h-auto justify-center'>
         {languages.length > 0 ? (
             languages.map((language, index) => (
                 <div key={index} className="size-14 sm:size-14 m-4 hover:animate-bounce">

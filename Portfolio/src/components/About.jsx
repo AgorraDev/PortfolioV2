@@ -12,9 +12,9 @@ const About = () => {
                 </div>
                 <div className="flex items-start sm:items-center">
                     <p className='flex font-mono text-center text-2xl sm:text-3xl lg:text-4xl'>                         
-                        Passionate about using psychology to build engaging and user-focused software.
+                        I'm passionate about building engaging, user-centered software.
                         I work mainly with React, Node, and Express to build aesthetic websites and apps with
-                        clean & easy to read designs.
+                        clean designs.
                     </p>
                 </div>
                 <div>
@@ -23,7 +23,7 @@ const About = () => {
                     </div>
                 </div>
                 <div className="flex justify-end">
-                    <div className="size-6/12 p-5">
+                    <div className="sm:size-6/12 p-5">
                         <img src="src/assets/Asset_2.png" alt="" />
                     </div>
                 </div>
