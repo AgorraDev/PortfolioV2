@@ -6,7 +6,7 @@ const About = () => {
            <div className='grid grid-cols-1 grid-rows-4 lg:grid-cols-2 lg:grid-rows-2 w-11/12 h-11/12 place-center' >
                 <div className='flex flex-wrap justify-center items-center size-full'>
                     <div className='flex size-full sm:size-80'>
-                        <img src="src\assets\illustraion_01.svg" alt="photo of hagen" className=''/>
+                        <img src="Portfolio\public\Illustraion_01.svg" alt="photo of hagen" className=''/>
                     </div>
 
                 </div>
@@ -24,7 +24,7 @@ const About = () => {
                 </div>
                 <div className="flex justify-end">
                     <div className="sm:size-6/12 p-5">
-                        <img src="src/assets/Asset_2.png" alt="" />
+                        <img src="Portfolio\public\Asset_2.png" alt="" />
                     </div>
                 </div>
             </div>
