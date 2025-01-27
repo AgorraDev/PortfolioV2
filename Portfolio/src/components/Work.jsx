@@ -20,7 +20,9 @@ const Work = () => {
                 projects.map(project => (
                     <> 
                     <a key={project.id} href={project.link} className="h-fit w-auto m-2">
-                    <div className={`p-2 my-1 h-48 bg-[url(${project.image})] bg-cover hover:border-4 hover:border-orange-600`}>
+                    <div className={`p-2 my-1 h-48 hover:border-4 hover:border-orange-600`}
+                         style={{backgroundImage: `url(${project.image})`, backgroundSize: 'cover'}}
+                         >
                     </div>
                     <p className="text-center">{project.title}</p>
                     <p className="text-center">{project.description}</p>
