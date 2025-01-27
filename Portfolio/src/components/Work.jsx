@@ -2,7 +2,7 @@ import { useState } from "react";
 
 const Work = () => {
     const [projects, setProjects] = useState([
-        {'id' : 1, 'title' : 'Agora Store', 'description': 'A basic eccommerce site using my own brand of t-shirts', 'link': 'https://agora-new-three.vercel.app/', 'image' : 'Portfolio\public\AgoraStore_portfolio_bg.png' },
+        {'id' : 1, 'title' : 'Agora Store', 'description': 'A basic eccommerce site using my own brand of t-shirts', 'link': 'https://agora-new-three.vercel.app/', 'image' : "src/img_files/AgoraStore_portfolio_bg.png" },
         // {'id' : 2, 'title' : 'TarotReader', 'description': 'An AI powered tarot reading web app', 'link': '/projects/2' },
         // {'id' : 3, 'title' : 'Project3', 'description': 'Describing what I have worked on', 'link': '/projects/3' },
         // {'id' : 4, 'title' : 'Project4', 'description': 'Describing what I have worked on', 'link': '/projects/4' }, 
@@ -18,7 +18,7 @@ const Work = () => {
                 {
                 projects.length > 0 ? (
                 projects.map(project => (
-                    <>
+                    <> 
                     <a key={project.id} href={project.link} className="h-fit w-auto m-2">
                     <div className={`p-2 my-1 h-48 bg-[url(${project.image})] bg-cover hover:border-4 hover:border-orange-600`}>
                     </div>
@@ -36,3 +36,4 @@ const Work = () => {
 }
 
 export default Work;
+
